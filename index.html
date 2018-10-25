@@ -1,0 +1,24 @@
+<!--Dans le fichier html fourni, afficher toutes les variables.-->
+<!DOCTYPE html>
+<html lang="fr" ng-app="schoolApp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/Ex2Ang.css"></li>
+    <title>Angular Partie 2 Exercice 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body ng-controller="studentsCtrl">
+    <div class="container-fluid">
+    	<h1>Angular Js</h1>
+    	<h2>Partie 2 - Exercice 2</h2>
+    	<div id="stoneDecoration" class="col-xs-12 offset-sm-1 col-sm-10 offset-md-2 col-md-8 offset-lg-3 col-lg-6 offset-xl-4 col-xl-4">
+    		{{firstName}}
+            {{lastName}}
+            {{age}}
+            {{grade}}
+    	</div>
+    </div>
+</body>
+</html>
